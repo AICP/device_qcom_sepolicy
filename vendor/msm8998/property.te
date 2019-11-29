@@ -27,3 +27,6 @@
 
 #properties for qvrd
 type ctl_qvrd_prop, property_type;
+
+#properties for wifi
+type wifi_default_prop, property_type;
