@@ -37,6 +37,7 @@ allow system_app dpmtcm_socket:sock_file w_file_perms;
 allow system_app dpmwrapper_socket:sock_file w_file_perms;
 allow system_app dpmd:unix_stream_socket connectto;
 allow system_app color_service:service_manager add;
+allow system_app dpmservice:service_manager { add };
 get_prop(system_app, bluetooth_prop);
 
 # allow system app to interact with mirrorlinkserver
